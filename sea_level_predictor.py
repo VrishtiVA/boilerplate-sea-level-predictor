@@ -22,7 +22,7 @@ def draw_plot():
         df['CSIRO Adjusted Sea Level'],
     )
     
-    x = pd.Series([i for i in range(df['Year'].min(), 2050, 1) ])
+    x = pd.Series([i for i in range(df['Year'].min(), 2051, 1) ])
 
     ## y = mx + c == y = slope*x + intercept
     plt.plot(
